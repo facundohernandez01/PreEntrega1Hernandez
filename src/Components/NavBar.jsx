@@ -31,7 +31,7 @@ const NavBar = () => {
       bg="#e6e6e6"
     >
         <Heading as="h1" size="lg" px='1.5'>
-          Logo
+          Tienda de cervezas
         </Heading>
       <Spacer/>
       <Box
