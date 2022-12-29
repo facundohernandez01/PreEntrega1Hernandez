@@ -17,6 +17,7 @@ import {
   MenuGroup,
   MenuOptionGroup,
   MenuDivider,
+  Stack,
 } from "@chakra-ui/react";
 import CartWidget from "./CartWidget";
 import { HamburgerIcon } from "@chakra-ui/icons"
@@ -31,8 +32,15 @@ const NavBar = () => {
       wrap="wrap"
       bg="#e6e6e6"
     >
+      <Stack p='1.5'>
+
+      <Image
+          src={logo}
+          boxSize='60px'
+              />
+          </Stack>
         <Heading as="h1" size="lg" px='1.5'>
-        <img src={logo} alt="Tienda de cervezas" />
+
           Tienda de cervezas
         </Heading>
       <Spacer/>
