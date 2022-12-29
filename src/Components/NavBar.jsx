@@ -20,6 +20,7 @@ import {
 } from "@chakra-ui/react";
 import CartWidget from "./CartWidget";
 import { HamburgerIcon } from "@chakra-ui/icons"
+import logo from '../assets/img/logo.png'
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +32,7 @@ const NavBar = () => {
       bg="#e6e6e6"
     >
         <Heading as="h1" size="lg" px='1.5'>
+        <img src={logo} alt="Tienda de cervezas" />
           Tienda de cervezas
         </Heading>
       <Spacer/>
